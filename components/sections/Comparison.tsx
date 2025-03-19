@@ -8,7 +8,7 @@ const comparisonData = {
   features: [
     {
       name: "受講期間",
-      values: ["2日", "3ヶ月～", "6ヶ月以上"],
+      values: ["1日", "3ヶ月～", "6ヶ月以上"],
       descriptions: ["短期集中で効率的に学習", "コースによって異なる", "試験対策に時間がかかる"]
     },
     {
