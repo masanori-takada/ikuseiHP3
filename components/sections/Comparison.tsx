@@ -49,7 +49,7 @@ const ValueCell = ({ value, description, isHighlight }: { value: boolean | strin
   }
   return (
     <div>
-      <div className={`font-bold text-lg mb-1 ${isHighlight ? 'bg-yellow-100 px-2 py-1 rounded-lg inline-block text-[#BC9A73]' : ''}`}>
+      <div className={`font-bold text-lg mb-1 ${value === "1日" || value === "99,000円" ? 'text-blue-600' : ''}`}>
         {value}
       </div>
       <div className="text-sm text-gray-600">{description}</div>
