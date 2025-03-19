@@ -22,7 +22,7 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md mb-6">
               <Clock className="w-5 h-5 text-[#4A5568]" />
-              <span className="font-bold">たった2日</span>
+              <span className="font-bold">たった1日</span>
               <span className="text-gray-600">で現場レベルをマスター！</span>
             </div>
             
