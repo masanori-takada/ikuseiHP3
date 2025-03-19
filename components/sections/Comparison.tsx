@@ -13,7 +13,7 @@ const comparisonData = {
     },
     {
       name: "受講料金",
-      values: ["99,000円", "200,000円～", "330,000円"],
+      values: ["39,000円", "200,000円～", "330,000円"],
       descriptions: ["リーズナブルな料金設定", "長期のコースほど高額", "受験料・教材費含む"]
     },
     {
@@ -49,7 +49,7 @@ const ValueCell = ({ value, description, isHighlight }: { value: boolean | strin
   }
   return (
     <div>
-      <div className={`font-bold text-lg mb-1 ${value === "1日" || value === "99,000円" ? 'text-blue-600' : ''}`}>
+      <div className={`font-bold text-lg mb-1 ${value === "1日" || value === "39,000円" ? 'text-blue-600' : ''}`}>
         {value}
       </div>
       <div className="text-sm text-gray-600">{description}</div>
