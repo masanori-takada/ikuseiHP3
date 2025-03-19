@@ -76,7 +76,7 @@ export default function Hero() {
                   <Calendar className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-2">2日間で完全習得</h3>
+                  <h3 className="font-bold text-lg mb-2">1日間で完全習得</h3>
                   <p className="text-sm text-gray-600">
                     理系の知識を活かして、AIエンジニアとしての第一歩を踏み出せます
                   </p>
