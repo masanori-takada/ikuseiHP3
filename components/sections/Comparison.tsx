@@ -76,7 +76,7 @@ export default function Comparison() {
           </p>
         </motion.div>
 
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto" style={{ width: '800px', height: '600px' }}> {/* Added style here */}
           <table className="w-full">
             <thead>
               <tr>
